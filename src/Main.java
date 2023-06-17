@@ -11,7 +11,7 @@ public class Main {
 
         Scanner leia = new Scanner(System.in);
         VerificadorDePedido verificadorDePedido = new VerificadorDePedido();
-        RCadPedido[] rCadPedidos = new RCadPedido[3];
+        RCadPedido[] rCadPedidos = new RCadPedido[10];
         boolean execucao = true;
         float valorTotalDosPedidos = 0f;
         int quantidadeDePedidos = 0;
