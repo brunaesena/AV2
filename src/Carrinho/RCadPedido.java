@@ -21,6 +21,10 @@ public class RCadPedido {
         return numeroPedido;
     }
 
+    public void setNumeroPedido(int numeroPedido) {
+        this.numeroPedido = numeroPedido;
+    }
+
     public TipoAtendimento getTipoAtendimento() {
         return tipoAtendimento;
     }
