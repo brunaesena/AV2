@@ -152,6 +152,9 @@ public class Main {
                         break;
                     }
                     break;
+                default:
+                    System.out.print("Opção inválida. Escolha uma das oções acima: ");
+                    opcaoMenu = leia.nextInt();
             }
         }
     }
